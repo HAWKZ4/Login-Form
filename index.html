@@ -22,7 +22,7 @@
     <div class="image">
       <img src="Image/w2.jpg" alt="">
     </div>
-    <div class="form">
+    <form class="form">
       <div class="cont1">
       <label for="" >Name</label>
       <input type="text" placeholder="Luke Skywalker" autofocus>
@@ -42,17 +42,17 @@
     <div class="cont1">
 
       <label for="">Email</label>
-      <input type="email" placeholder="lukeskywlaker@galaxy.com">
+      <input name="email" type="email" placeholder="lukeskywlaker@galaxy.com" required>
       </div>
 
       <div class="cont1">
       <label for="">City</label>
-      <input type="text" placeholder="Moisture Farm">
+      <input name="city" type="text" placeholder="Moisture Farm">
       </div>
 
       <div class="cont1">
       <label for="">Country</label>
-      <input type="text" placeholder="Tatooine">
+      <input name="coutnry" type="text" placeholder="Tatooine">
       </div>
       <div class="cont1">
       <label for="">Subscription</label>
@@ -65,11 +65,11 @@
 
       </div>
         <div class="finalb">
-          <a href="#">Cancel</a>
-          <a href="#">Save</a>
+          <button>Cancel</button>
+          <input type="submit"/>
         </div>
       
-    </div>
+    </form>
   </div>
 </body>
 </html>

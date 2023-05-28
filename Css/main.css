@@ -172,6 +172,7 @@ ul {
   background-color: rgba(126, 124, 124, 0.244);
   border-radius: 50%;
 }
+/* -------------------------- */
 .container .form .cont1 .x label:first-of-type:after {
   content: "\f222";
   position: absolute;
@@ -234,7 +235,7 @@ ul {
 .container .finalb {
   text-align: right;
 }
-.container .finalb a {
+.container .finalb button , .container .finalb input {
   display: inline-block;
   text-decoration: none;
   width: fit-content;
@@ -243,18 +244,20 @@ ul {
   border-radius: 3px;
   transition: 0.6s;
   font-weight: bold;
+  cursor: pointer;
+  border: none;
 }
-.container .finalb a:first-of-type:hover {
+.container .finalb button:hover {
   color: #1ee99c;
 }
-.container .finalb a:last-of-type:hover {
+.container .finalb input:hover {
   color: royalblue;
 }
 
-.container .finalb a:first-of-type {
+.container .finalb button {
   background-color: rgba(126, 124, 124, 0.244);
 }
-.container .finalb a:last-of-type {
+.container .finalb input {
   background-color: #94deba;
   margin-left: 10px;
 }
@@ -310,7 +313,7 @@ ul {
   .container .image img {
     width: 440px;
   }
-  .container .finalb a:last-of-type {
+  .container .finalb input {
     background-color: #94deba;
     margin-left: 22px;
   }
@@ -320,14 +323,14 @@ ul {
   .container .image img {
     width: 575px;
   }
-  .container .finalb a:last-of-type {
+  .container .finalb input {
     background-color: #94deba;
     margin-left: 53px;
   }
 }
 
 @media (min-width: 320px) {
-  .container .finalb a {
+  .container .finalb button, .container .finalb input {
     padding: 8px 38px;
   }
 }
